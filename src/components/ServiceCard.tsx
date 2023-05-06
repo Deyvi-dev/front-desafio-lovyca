@@ -32,9 +32,11 @@ export default function ServiceCard({
         </span>
       </div>
       <div className="flex flex-col sm:flex-row justify-between items-center">
-        <button className="bg-blue-600 text-white font-semibold py-2 px-4 rounded mb-4 sm:mb-0">
-          Avaliar
-        </button>
+        <a href="/reviews">
+          <button className="bg-blue-600 text-white font-semibold py-2 px-4 rounded mb-4 sm:mb-0">
+            Avaliar
+          </button>
+        </a>
         <div className="flex items-center">
           <div className="flex items-center">
             <Image src="/like.svg" alt="Like Icon" width={25} height={25} />

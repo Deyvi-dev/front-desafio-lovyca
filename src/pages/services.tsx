@@ -6,7 +6,7 @@ export default function Services() {
   const [description, setDescription] = useState("")
   const [value, setValue] = useState("")
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault()
 
     console.log({ name, description, value })
